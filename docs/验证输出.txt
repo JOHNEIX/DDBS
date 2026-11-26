@@ -1,0 +1,31 @@
+test_business_rejections_abort_cleanly (test_system.SystemTests.test_business_rejections_abort_cleanly) ... ok
+test_catalog_version_mismatch_blocks_startup (test_system.SystemTests.test_catalog_version_mismatch_blocks_startup) ... ok
+test_cli_and_persistent_history (test_system.SystemTests.test_cli_and_persistent_history) ... ok
+test_conflicting_durable_decision_blocks (test_system.SystemTests.test_conflicting_durable_decision_blocks) ... ok
+test_coordinator_crash_after_decision_commits (test_system.SystemTests.test_coordinator_crash_after_decision_commits) ... ok
+test_coordinator_crash_after_prepare_aborts (test_system.SystemTests.test_coordinator_crash_after_prepare_aborts) ... ok
+test_corrupt_complete_log_blocks_access (test_system.SystemTests.test_corrupt_complete_log_blocks_access) ... ok
+test_cross_node_enroll_drop_and_idempotency (test_system.SystemTests.test_cross_node_enroll_drop_and_idempotency) ... ok
+test_exclusive_coordinator_lock (test_system.SystemTests.test_exclusive_coordinator_lock) ... ok
+test_initialization_and_local_query_trace (test_system.SystemTests.test_initialization_and_local_query_trace) ... ok
+test_no_seats_and_constraints (test_system.SystemTests.test_no_seats_and_constraints) ... ok
+test_node_commit_response_lost_is_idempotent (test_system.SystemTests.test_node_commit_response_lost_is_idempotent) ... ok
+test_node_crash_after_prepare_preserves_intents (test_system.SystemTests.test_node_crash_after_prepare_preserves_intents) ... ok
+test_offline_read_and_catalog_failover (test_system.SystemTests.test_offline_read_and_catalog_failover) ... ok
+test_orphan_prepared_blocks_recovery (test_system.SystemTests.test_orphan_prepared_blocks_recovery) ... ok
+test_partial_commit_is_blocked_then_recovers (test_system.SystemTests.test_partial_commit_is_blocked_then_recovers) ... ok
+test_roles_bind_student_and_authorize_admin (test_system.SystemTests.test_roles_bind_student_and_authorize_admin) ... ok
+test_rpc_validation_and_terminal_conflicts (test_system.SystemTests.test_rpc_validation_and_terminal_conflicts) ... ok
+test_same_node_atomic_operations (test_system.SystemTests.test_same_node_atomic_operations) ... ok
+test_split_packet_and_bad_length (test_system.SystemTests.test_split_packet_and_bad_length) ... ok
+test_truncated_log_tail_recovery (test_system.SystemTests.test_truncated_log_tail_recovery) ... ok
+test_web_blocked_state_recovers_partial_commit (test_system.SystemTests.test_web_blocked_state_recovers_partial_commit) ... ok
+test_web_launcher_reuses_existing_stations (test_system.SystemTests.test_web_launcher_reuses_existing_stations) ... ok
+test_web_read_write_and_request_identity (test_system.SystemTests.test_web_read_write_and_request_identity) ... ok
+test_web_rejects_bad_input_and_cross_site_writes (test_system.SystemTests.test_web_rejects_bad_input_and_cross_site_writes) ... ok
+test_web_static_assets_have_browser_executable_types (test_system.SystemTests.test_web_static_assets_have_browser_executable_types) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 42.221s
+
+OK

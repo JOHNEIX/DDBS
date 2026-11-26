@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>学生选课系统</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><h1>学生选课系统</h1><div id="account" hidden><span id="identity"></span><button id="logout">退出登录</button></div></header>
+<main>
+  <form id="login-form"><h2>登录</h2><label for="username">账号</label><input id="username" autocomplete="username" required><label for="password">密码</label><input id="password" type="password" autocomplete="current-password" required><button class="primary">登录</button></form>
+  <p id="notice" role="status" aria-live="polite" hidden></p>
+  <section id="workspace" hidden>
+    <nav><button data-view="catalog">课程列表</button><button data-view="schedule" id="schedule-nav">我的课表</button><button data-view="records" data-admin>操作记录</button><button data-view="status" data-admin>系统管理</button><button id="refresh">刷新</button></nav>
+    <div class="toolbar"><h2 id="title">课程列表</h2><form id="search-form"><label id="search-label" for="search">课程编号</label><input id="search" type="number" min="1"><button>查询</button><button type="button" id="reset-search">全部</button></form></div>
+    <p id="summary" hidden></p><button id="recover" data-admin hidden>继续事务恢复</button>
+    <div class="table-wrap"><table><thead id="columns"></thead><tbody id="rows"></tbody></table></div>
+    <div id="pager"><button id="previous">上一页</button><span id="page"></span><button id="next">下一页</button></div>
+    <div id="pending" hidden><span>上次操作等待确认</span><button id="check-request">查询结果</button><button id="retry">重试原请求</button></div>
+    <details id="trace-panel" data-admin><summary>执行过程</summary><pre id="trace"></pre></details>
+  </section>
+</main></body></html>

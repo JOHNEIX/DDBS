@@ -1,0 +1,10 @@
+test_web_blocked_state_recovers_partial_commit (test_system.SystemTests.test_web_blocked_state_recovers_partial_commit) ... ok
+test_web_launcher_reuses_existing_stations (test_system.SystemTests.test_web_launcher_reuses_existing_stations) ... ok
+test_web_read_write_and_request_identity (test_system.SystemTests.test_web_read_write_and_request_identity) ... ok
+test_web_rejects_bad_input_and_cross_site_writes (test_system.SystemTests.test_web_rejects_bad_input_and_cross_site_writes) ... ok
+test_web_static_assets_have_browser_executable_types (test_system.SystemTests.test_web_static_assets_have_browser_executable_types) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 10.228s
+
+OK

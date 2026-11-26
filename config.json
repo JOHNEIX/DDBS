@@ -1,0 +1,16 @@
+{
+  "cluster_id": "minishard-demo",
+  "coordinator_id": "coord-1",
+  "dataset_version": "v1",
+  "node_count": 3,
+  "data_dir": "data",
+  "connect_timeout": 3,
+  "request_timeout": 10,
+  "retries": 2,
+  "retry_delay": 0.5,
+  "nodes": [
+    {"id": 0, "host": "127.0.0.1", "port": 9100},
+    {"id": 1, "host": "127.0.0.1", "port": 9101},
+    {"id": 2, "host": "127.0.0.1", "port": 9102}
+  ]
+}
